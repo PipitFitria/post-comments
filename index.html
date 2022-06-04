@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post Comment</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="post">
+
+        <div class="post__header header">
+
+          <div class="header__left">
+            <a href="#">
+              <img src="./images/author-pic.jpg" class="post__author-pic"/>
+            </a>
+            <div class="post__author author">
+              <span class="author__name">
+                <a href="#">Pipit Ayu Fitriah</a>
+              </span>
+            </div>
+            <span class="post__date">
+              <a href="#">03 Juni 2022</a>
+            </span>
+          </div>
+        </div>
+        
+        <div class="post__content content">
+          <p class="content__paragraph">
+            Perjalanan ke Pantai Pok Tunggal memang tak terduga. 
+            Awalnya disuguhi jalan yang sulit, ternyata berujung pada surga tersembunyi yang memikat hati dan menantang nyali.
+            Sebatang pohon yang ikonik membuat pantai ini makin cantik.
+          </p>
+          <img src="images/post-pic.jpg" class="content__image"/>
+        </div>
+
+        <div class="post__footer footer">
+          <div class="footer__reactions reactions">
+            <div class="reactions__emojis emojis">
+              <img src="images/lovee.svg" class="emojis__love" />
+              <span class="emojis__count">
+                <a href="#">Like (100)</a>
+              </span>
+              <img src="images/share.svg" class="emojis__share" />
+              <span class="emojis__count">
+                <a href="#">Share (2)</a>
+              </span>
+            </div>
+          </div>
+
+          <div class="footer__comments comments">
+            <div class="comments__filter filter">
+              1 comments<img src="images/down.png" class="filter__icon" />
+            </div>
+
+            <div class="comments__friend-comment friend-comment">
+              <img src="images/friend-pic.jpg" class="friend-comment__pic"/>
+              <div class="friend-comment__comment comment">
+                <a href="#" class="comment__author">Disa</a>
+                <span class="comment__date">
+                  <a href="#">03 Juni 2022</a>
+                </span>
+                <span class="comment__content">Wah, bagus sekali view disana ya ternyata</span>
+                <span>
+                  <a href="#" class="links__reply">Reply</a>
+                  <img src="images/flag.svg" class="emojis__flag" />
+                </span>
+              </div>
+            </div>
+
+            <div class="comments__box box">
+              <div class="box__profile profile">
+                <img src="images/profile-pic.jpg" class="profile__pic">
+              </div>
+              <div class="box__bar bar">
+                <input type="text" placeholder="Add a comment..." class="bar__input"/>
+              </div>
+            </div>
+
+            <div class="footer__buttons buttons">
+              <span class="buttons__save save">
+                <i class="save">Post Comment</i>
+              </span>
+            </div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
